@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+            <meta charset="utf-8">
+            <title>표 만들기</title>
+            <style>
+            td{
+                width: 100px; /*셀 넓이*/
+                height: 30px; /*셀 높이*/
+            }
+            
+            </style>
+    </head>
+    <body>
+        <table border="1">
+            <caption>colgroup 이곳은 제목입니다.</caption>
+                <colgroup>
+                <col>
+                <col span="2" style="background-color: crimson">
+                <col style="background-color: darkblue">
+                </colgroup>
+
+
+            </caption>
+            <tr>
+                <td>Hello1</td>
+                <td>Hello2</td>
+                <td>Hello3</td>
+                <td>Hello4</td>
+            </tr>
+            <tr>
+                    <td>Hell1</td>
+                    <td>Hell2</td>
+                    <td>Hell3</td>
+                    <td>Hell4</td>
+                </tr>
+        </table>
+    </body>
+    
+</html>
